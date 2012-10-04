@@ -5,7 +5,7 @@
 //     For all details and documentation:
 //     http://backbonejs.org
 
-(function(){
+(function() {
 
   // Initial Setup
   // -------------
@@ -1455,4 +1455,4 @@
     throw new Error('A "url" property or function must be specified');
   };
 
-}).call(this);
+}).call(window);
