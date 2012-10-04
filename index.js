@@ -35,10 +35,10 @@
 
   // Require Underscore, if we're on the server, and it's not already present.
   var _ = root._;
-  if (!_ && (typeof require !== 'undefined')) _ = require('perfectt-lodash');
+  if (!_ && (typeof require !== 'undefined')) _ = require('lodash');
 
   // For Backbone's purposes, jQuery, Zepto, or Ender owns the `$` variable.
-  Backbone.$ = require('perfectt-jquery');
+  Backbone.$ = require('jquery');
 
   // Runs Backbone.js in *noConflict* mode, returning the `Backbone` variable
   // to its previous owner. Returns a reference to this Backbone object.
