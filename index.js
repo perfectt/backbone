@@ -17,7 +17,7 @@ var splice = Array.prototype.splice;
 
 // The top-level namespace. All public Backbone classes and modules will
 // be attached to this. Exported for both CommonJS and the browser.
-var Backbone = module.exports = root.Backbone;
+var Backbone = module.exports = root.Backbone = {};
 
 // Current version of the library. Keep in sync with `package.json`.
 Backbone.VERSION = '0.9.2';
