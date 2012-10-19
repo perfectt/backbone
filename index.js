@@ -23,7 +23,7 @@ var Backbone = module.exports = root.Backbone = {};
 Backbone.VERSION = '0.9.2';
 
 // Require Underscore, if we're on the server, and it's not already present.
-var _ = root._ = require('lodash');
+var _ = root._ = require('underscore');
 
 // For Backbone's purposes, jQuery, Zepto, or Ender owns the `$` variable.
 Backbone.$ = root.$ = require('jquery');
